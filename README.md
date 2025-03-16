@@ -1,8 +1,8 @@
 # htmlproc
 
 [![crates.io](https://img.shields.io/crates/v/htmlproc?label=latest)](https://crates.io/crates/htmlproc)
-[![Documentation](https://docs.rs/htmlproc/badge.svg?version=latest)](https://docs.rs/htmlproc/latest)
-[![Dependency Status](https://deps.rs/crate/htmlproc/latest/status.svg)](https://deps.rs/crate/htmlproc/latest)
+[![Documentation](https://docs.rs/htmlproc/badge.svg?version=latest)](https://docs.rs/htmlproc)
+[![Dependency Status](https://deps.rs/crate/htmlproc/latest/status.svg)](https://deps.rs/crate/htmlproc)
 [![License](https://img.shields.io/github/license/nabbisen/htmlproc-rs)](https://github.com/nabbisen/htmlproc-rs/blob/main/LICENSE)
 
 HTML processors as utils written in Rust.
