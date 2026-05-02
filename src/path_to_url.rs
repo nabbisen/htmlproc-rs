@@ -153,8 +153,8 @@ fn scan(handle: &Handle, options: &ActualConvertOptions, output: &mut String) {
             }
         }
         NodeData::Element {
-            ref name,
-            ref attrs,
+            name,
+            attrs,
             ..
         } => {
             let tag_name = name.local.as_ref();
@@ -207,7 +207,7 @@ fn scan(handle: &Handle, options: &ActualConvertOptions, output: &mut String) {
             output.push_str(tag_name);
             output.push('>');
         }
-        NodeData::Text { ref contents } => {
+        NodeData::Text { contents } => {
             output.push_str(&contents.borrow());
         }
         _ => {}

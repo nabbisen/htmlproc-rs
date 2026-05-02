@@ -87,8 +87,8 @@ fn scan(handle: &Handle, options: &OmitOptions, output: &mut String) {
             }
         }
         NodeData::Element {
-            ref name,
-            ref attrs,
+            name,
+            attrs,
             ..
         } => {
             let tag_name = name.local.to_string();
@@ -124,7 +124,7 @@ fn scan(handle: &Handle, options: &OmitOptions, output: &mut String) {
             output.push_str(tag_name.as_str());
             output.push('>');
         }
-        NodeData::Text { ref contents } => {
+        NodeData::Text { contents } => {
             output.push_str(&contents.borrow());
         }
         _ => {}
